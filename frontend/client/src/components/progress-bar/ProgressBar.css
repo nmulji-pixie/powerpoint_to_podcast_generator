@@ -1,0 +1,40 @@
+.voice-bar-container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+  }
+  
+  .voice-bar {
+    -webkit-appearance: none;
+    width: 90%;
+    height: 4px;
+    background: #000;
+    border-radius: 2px;
+    outline: none;
+    cursor: pointer;
+  }
+  
+  /* Thumb styling */
+  .voice-bar::-webkit-slider-thumb {
+    -webkit-appearance: none;
+    appearance: none;
+    width: 12px;
+    height: 12px;
+    background: #fff;
+    border: 2px solid #000;
+    border-radius: 50%;
+    cursor: pointer;
+    transition: background 0.3s;
+  }
+  
+  .voice-bar::-moz-range-thumb {
+    width: 12px;
+    height: 12px;
+    background: #fff;
+    border: 2px solid #000;
+    border-radius: 50%;
+    cursor: pointer;
+    transition: background 0.3s;
+  }
+  
